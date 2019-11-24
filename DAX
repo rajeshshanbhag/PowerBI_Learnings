@@ -1,2 +1,2 @@
 DAX for YTD dales
-CumulativeSales = CALCULATE((TotalSales),FILTER(ALLSELECTED(Datestable[Date]),Datestable[Date]<=MAX(Datestable[Date]))))
+CumulativeSales = CALCULATE((TotalSales),FILTER(ALLSELECTED(Datestable[Date]),Datestable[Date]<=MAX(Datestable[Date])))
